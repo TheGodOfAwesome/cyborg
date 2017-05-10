@@ -11,6 +11,7 @@ metawear.discover(function(device) {
 
     setInterval(function() {
       haptic.startMotor(500,278);
+      console.log('MOTOR activated !')
     }, 2000);
   });
 });
