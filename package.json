@@ -1,0 +1,34 @@
+{
+  "name": "handsonio-cyborg-part1",
+  "version": "1.0.0",
+  "description": "This is the first part of a rapid prototyping project called Cyborg made with love by https://handson.io. This part focus only on getting to know the hardware, a Metawear CPro, a Rapsberry Pi Zero W and a vibration motor.",
+  "main": "index.js",
+  "dependencies": {
+    "node-metawear": "^0.3.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/handsonio/cyborg.git"
+  },
+  "keywords": [
+    "cyborg",
+    "metawear",
+    "handson.io",
+    "node",
+    "bluetooth",
+    "ble",
+    "mbientlab",
+    "sensor",
+    "wearable"
+  ],
+  "author": "Alan Hortz <alan@hadson.io>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/handsonio/cyborg/issues"
+  },
+  "homepage": "https://github.com/handsonio/cyborg#readme"
+}
