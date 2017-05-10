@@ -1,5 +1,5 @@
 {
-  "name": "handsonio-cyborg-part1",
+  "name": "handsonio-cyborg",
   "version": "1.0.0",
   "description": "This is the first part of a rapid prototyping project called Cyborg made with love by https://handson.io. This part focus only on getting to know the hardware, a Metawear CPro, a Rapsberry Pi Zero W and a vibration motor.",
   "main": "index.js",
