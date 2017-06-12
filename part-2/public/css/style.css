@@ -33,6 +33,9 @@ footer {
   display: flex;
   align-items: center;
   justify-content: center;
-  
   height: 33vh;
+}
+canvas {
+  height: 9vw;
+  width: 20vw;
 }

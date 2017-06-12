@@ -7,13 +7,37 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <script src="/socket.io/socket.io.js"></script>
+    <script type="text/javascript" src="js/smoothie.js"></script>
 </head>
 
 <body>
     <section class="axes">
-        <div class="axe"><span class="label">X</span><span class="value" id="x-axe">1.334</span></div>
-        <div class="axe"><span class="label">Y</span><span class="value" id="y-axe">0.566</span></div>
-        <div class="axe"><span class="label">Z</span><span class="value" id="z-axe">0.912</span></div>
+        <div class="axe">
+          <div>
+            <span class="label">X</span><span class="value" id="x-axe">1.334</span>
+          </div>
+          <div>
+            <canvas id="x-chart"></canvas>
+          </div>
+        </div>
+        <div class="axe">
+          <div>
+            <span class="label">Y</span><span class="value" id="y-axe">0.566</span>
+          </div>
+          <div>
+            <canvas id="y-chart"></canvas>
+          </div>
+
+        </div>
+        <div class="axe">
+          <div>
+            <span class="label">Z</span><span class="value" id="z-axe">0.912</span>
+          </div>
+          <div>
+            <canvas id="z-chart"></canvas>
+          </div>
+
+        </div>
     </section>
     <footer>
       <a href="https://handson.io"><img src="https://handson.io/img/logo.svg"/></a>
